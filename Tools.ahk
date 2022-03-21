@@ -20,7 +20,7 @@ Menu, Tray, NoStandard
 Menu, Tray, Add, Exit, Exit
 Menu, Tray, Default, Exit
 
-if FileExist(A_ScriptDir . "\icon.ico")
+if FileExist(A_ScriptDir . "\img\logo.ico")
 	Menu, Tray, Icon, %A_ScriptDir%\icon.ico
 if not A_IsAdmin ; Checks if script is being run as an administrator, if not it wil prompt for it.
 {
