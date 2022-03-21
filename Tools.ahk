@@ -128,6 +128,21 @@ menuYpos := Ypos+50 ; Offset F10 Menu from center of main GUI window
 Gui, +E0x80020 ; Extended style, makes the window ignore the mouse cursor
 return
 
+F7:: sendinput #{NumpadAdd} ;zoom in
+F8:: sendinput #{NumpadSub} ;zoom out
+F6:: ;toggle Magnifier visibility
+ if magmin=0
+  {
+  WinMinimize, ahk_class MagUIClass
+  WinHide, ahk_class MagUIClass
+  magmin=1
+  }
+ else
+  {
+  WinShow, ahk_class MagUIClass
+  magmin=0
+  }
+return
 
 F11::
 if invisible = 0
