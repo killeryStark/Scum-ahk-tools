@@ -36,7 +36,8 @@ a2=00        ; Green value
 a3=FF        ; Blue value
 
 
-crosshair1 = 11-0 10-10 15-15 14-14
+crosshair1 = 11-11 14-11 14-14 11-14 11-11
+crosshair2 = 11-16 11-22 9-20 8-19 7-18 6-17 5-16 5-15 4-14 4-10 5-9 5-8 6-7 7-6 8-5 9-4 10-4 11-3 14-3 15-4 16-4 17-5 18-6 19-7 20-8 20-9 21-10 21-14 20-15 20-16 19-17 18-18 17-19 16-20 14-22 14-16 15-17 16-17 17-16 17-15 18-14 18-10 17-9 17-8 16-7 15-7 14-6 11-6 10-7 9-7 8-8 8-9 7-10 7-14 8-15 8-16 9-17 10-17 11-16 11-16 11-12 12-13 12-10 13-11 12-12 12-13 11-12 12-13 11-14 13-14 13-12 14-13 13-14 11-14
 
 ;--------------------Load the saved values.
 IfExist %ScriptName%.ini
@@ -59,7 +60,7 @@ activecrosshair := %activecrosshair% ; Default crosshair
 invisible = 0
 menutoggle = 1 ; Initialize menu to OFF
 previewactive1 = 1 ; Default cursor is selected in F10 Menu
-; previewactive2 = 0 ; Following selections are 'inactive'
+previewactive2 = 0 ; Following selections are 'inactive'
 ; previewactive3 = 0
 ; previewactive4 = 0
 ; previewactive5 = 0
@@ -121,7 +122,7 @@ Else
     Gui, colorslider:Show,x%menuXpos% y%menuYpos% w245 h85, Color Slider
     Gui, colorslider:Add, Slider, w35 h75 vaa gsave AltSubmit -border Page10 Range1-300 TickInterval50 Vertical, 
 	
-	loop, 1
+	loop, 2
 	{
 		boxXpos%A_Index% := crosshairXpos%A_Index%-5
 		boxYpos%A_Index% := crosshairYpos%A_Index%-5
@@ -181,6 +182,7 @@ if A_GuiEvent = Normal
 			Gui, crosshairpreview%A_GuiControl%:Show,x%selectionCrosshairXpos% y%selectionCrosshairYpos% w35 h35
 			WinSet, Region, %crosshairActiveNum%, A
 			Gui, +E0x80020
+            IniWrite, crosshair%A_Index%, %ScriptName%.ini, Crochair tol,activecrosshair
 			activecrosshair := crosshairActiveNum
 			Gui, crosshair:Destroy
 			GuiControl shadowbox%A_GuiControl%:+BackgroundSilver, %A_GuiControl%
