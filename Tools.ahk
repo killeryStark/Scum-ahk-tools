@@ -1,6 +1,6 @@
 ; ########### init program ###########
 ;
-; AutoHotkey Version: 0.1
+; AutoHotkey Version: 0.2
 ; Language:       Russia
 ; Platform:       Windows 7/8/8.1 32/64bit
 ; Author:         KilleryStark 	krutikovily@gmail.com
@@ -21,7 +21,7 @@ Menu, Tray, Add, Exit, Exit
 Menu, Tray, Default, Exit
 
 if FileExist(A_ScriptDir . "\img\logo.ico")
-	Menu, Tray, Icon, %A_ScriptDir%\icon.ico
+	Menu, Tray, Icon, %A_ScriptDir%\img\logo.ico
 if not A_IsAdmin ; Checks if script is being run as an administrator, if not it wil prompt for it.
 {
     Run *RunAs "%A_ScriptFullPath%"

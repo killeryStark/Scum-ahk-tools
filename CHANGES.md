@@ -1,3 +1,6 @@
+# Version 0.2
+1. Add zoom func
+
 # Version 0.1
 
 1. Add crosshairs
