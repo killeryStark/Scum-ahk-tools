@@ -1,6 +1,6 @@
 ; ########### init program ###########
 ;
-; AutoHotkey Version: 0.2
+; AutoHotkey Version: 0.2.5
 ; Language:       Russia
 ; Platform:       Windows 7/8/8.1 32/64bit
 ; Author:         KilleryStark 	krutikovily@gmail.com
@@ -126,6 +126,39 @@ WinGetPos, Xpos, Ypos, A ; Grab window's Xpos and Ypos to allow everything to ad
 menuXpos := Xpos+50 ; Offset F10 Menu from center of main GUI window
 menuYpos := Ypos+50 ; Offset F10 Menu from center of main GUI window
 Gui, +E0x80020 ; Extended style, makes the window ignore the mouse cursor
+return
+
+^z::
+if menutoggle = 0
+{
+    menutoggle = 1
+    Gui, menutools:Destroy
+}
+Else
+{
+    menutoggle = 0 ; Just in case
+	Gui, menutools:New, +AlwaysOnTop +E0x08000000 -Caption +border
+	Gui, menutools:Add, Tab, x2 y-1 w410 h540 , Hot keys|Admin tools|Settings
+	Gui, menutools:Tab, Hot keys
+	Gui, menutools:Add, Text, x22 y29 w220 h30 , Hot keys
+	Gui, menutools:Add, Text, x22 y69 w220 h20 , ctrl + z - Menu
+	Gui, menutools:Add, Text, x22 y99 w220 h20 , F11 - On/Off Crosshair
+	Gui, menutools:Add, Text, x22 y129 w220 h20 , F10 - Crosshair settings
+	Gui, menutools:Add, Text, x22 y159 w220 h20 , F8 - Add zoom
+	Gui, menutools:Add, Text, x22 y189 w220 h20 , F7 - Reduce zoom
+	Gui, menutools:Add, Text, x22 y219 w220 h20 , F6 - Magnifier control
+	Gui, menutools:Tab, Admin tools
+	Gui, menutools:Add, Text, x157 y256 w100 h30, Soon
+	Gui, menutools:Tab, Settings
+	Gui, menutools:Add, Text, x157 y256 w100 h30 , Soon
+	Gui, menutools:Tab, Hot keys
+	Gui, menutools:Add, Picture, x92 y239 w210 h250 , .\img\logo.png
+	; Generated using SmartGUI Creator 4.0
+	Gui, menutools:Show, x1495 y89 h546 w419, Menu
+	Return
+
+	
+}
 return
 
 F7:: sendinput #{NumpadAdd} ;zoom in

@@ -1,3 +1,6 @@
+# Version 0.2.5
+1. Add gui menu
+
 # Version 0.2
 1. Add zoom func
 
