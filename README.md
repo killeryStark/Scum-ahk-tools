@@ -10,7 +10,7 @@
  - [x] Add gui menu
  - [x] Add maps
  - [ ] Add main scripts
- - [ ] Add Scum hot key
+ - [x] Add Scum hot key
  - [ ] Add lock picking script
  - [ ] Add admin settings
  - [ ] Add settings

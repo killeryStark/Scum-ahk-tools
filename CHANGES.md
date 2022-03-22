@@ -1,3 +1,6 @@
+# Version 0.4.0
+1. Add Scum hotkeys
+
 # Version 0.3.5
 1. Add server online
 
