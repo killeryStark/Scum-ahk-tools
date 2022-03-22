@@ -1,3 +1,6 @@
+# Version 0.3.5
+1. Add server online
+
 # Version 0.3.0
 1. Add maps
 
