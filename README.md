@@ -5,7 +5,10 @@
 </a>
 
 # TO-DO
- - [] Add maps
- - [] Add lock picking script
- - [] Add admin settings
- - [] Add settings
+ - [x] Add crosshair
+ - [x] Add zoom
+ - [x] Add gui menu
+ - [x] Add maps
+ - [ ] Add lock picking script
+ - [ ] Add admin settings
+ - [ ] Add settings
