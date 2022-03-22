@@ -1,3 +1,6 @@
+# Version 0.3.0
+1. Add maps
+
 # Version 0.2.5
 1. Add gui menu
 
