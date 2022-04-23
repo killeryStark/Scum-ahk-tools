@@ -1,3 +1,6 @@
+# Version 0.5.0
+1. Add Lockpicking script
+
 # Version 0.4.0
 1. Add Scum hotkeys
 
