@@ -1,0 +1,293 @@
+
+
+Loop, 1
+{
+
+SetTitleMatchMode, 2
+CoordMode, Mouse, Screen
+
+tt = SCUM в GeForce NOW ahk_class CEFCLIENT
+WinWait, %tt%
+IfWinNotActive, %tt%,, WinActivate, %tt%
+
+Sleep, 453
+
+Send, {Blind}f
+
+Sleep, 617
+
+MouseClick, L, 1529, 384
+
+Sleep, 766
+
+Send, {Blind}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}
+
+Sleep, 554
+
+MouseClick, L, 1903, 230,,, D
+
+Sleep, 711
+
+MouseClick, L, 1897, 440,,, U
+
+Sleep, 172
+
+MouseClick, L, 1627, 456
+
+Sleep, 203
+
+MouseClick, L, 1626, 236
+
+MouseClick, L, 1626, 235
+
+MouseClick, L, 1626, 235
+
+MouseClick, L, 1626, 235
+
+MouseClick, L, 1626, 235
+
+MouseClick, L, 1626, 235
+
+MouseClick, L, 1626, 235
+
+MouseClick, L, 1626, 235
+
+MouseClick, L, 1626, 235
+
+Sleep, 140
+
+MouseClick, L, 1626, 235
+
+Sleep, 476
+
+MouseClick, L, 1543, 1032
+
+Sleep, 336
+
+MouseClick, L, 1817, 465
+
+Sleep, 226
+
+MouseClick, L, 1693, 216
+
+MouseClick, L, 1693, 216
+
+MouseClick, L, 1693, 216
+
+MouseClick, L, 1693, 216
+
+Sleep, 531
+
+MouseClick, L, 1763, 1047
+
+Sleep, 382
+
+MouseClick, L, 1763, 1047
+
+Sleep, 1000
+
+MouseClick, L, 1452, 135,,, D
+
+Sleep, 257
+
+MouseClick, L, 1312, 117,,, U
+
+Sleep, 453
+
+MouseClick, L, 1513, 123,,, D
+
+Sleep, 164
+
+MouseClick, L, 1267, 143,,, U
+
+Sleep, 304
+
+MouseClick, L, 1576, 120,,, D
+
+Sleep, 140
+
+MouseClick, L, 1262, 141,,, U
+
+Sleep, 266
+
+MouseClick, L, 1665, 129,,, D
+
+Sleep, 171
+
+MouseClick, L, 1316, 157,,, U
+
+Sleep, 289
+
+MouseClick, L, 1717, 125,,, D
+
+Sleep, 172
+
+MouseClick, L, 1268, 146,,, U
+
+Sleep, 351
+
+MouseClick, L, 1783, 126,,, D
+
+Sleep, 250
+
+MouseClick, L, 1292, 155,,, U
+
+Sleep, 336
+
+MouseClick, L, 1849, 126,,, D
+
+Sleep, 258
+
+MouseClick, L, 1327, 158,,, U
+
+Sleep, 343
+
+MouseClick, L, 1460, 191,,, D
+
+Sleep, 336
+
+MouseClick, L, 1364, 177,,, U
+
+Sleep, 320
+
+MouseClick, L, 1529, 193,,, D
+
+Sleep, 437
+
+MouseClick, L, 1372, 224,,, U
+
+Sleep, 281
+
+MouseClick, L, 1587, 200,,, D
+
+Sleep, 422
+
+MouseClick, L, 1362, 223,,, U
+
+Sleep, 312
+
+MouseClick, L, 1646, 191,,, D
+
+Sleep, 344
+
+MouseClick, L, 1371, 225,,, U
+
+Sleep, 304
+
+MouseClick, L, 1711, 191,,, D
+
+Sleep, 351
+
+MouseClick, L, 1372, 221,,, U
+
+Sleep, 312
+
+MouseClick, L, 1782, 193,,, D
+
+Sleep, 476
+
+MouseClick, L, 1358, 221,,, U
+
+Sleep, 312
+
+MouseClick, L, 1846, 189,,, D
+
+Sleep, 398
+
+MouseClick, L, 1347, 222,,, U
+
+Sleep, 797
+
+MouseClick, L, 1584, 1041
+
+Sleep, 1000
+
+Send, {Blind}{Shift Down}c{Shift Up}
+
+
+Sleep, 617
+
+MouseClick, L, 1529, 384
+
+Sleep, 1000
+
+Send, {Blind}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}{WheelUp}
+
+
+Sleep, 600
+
+MouseClick, L, 1908, 270,,, D
+
+Sleep, 600
+
+MouseClick, L, 1913, 453,,, U
+
+Sleep, 600
+
+MouseClick, L, 1740, 371
+
+Sleep, 600
+
+MouseClick, L, 1748, 1052
+
+Sleep, 9000
+
+MouseClick, L, 1753, 1055
+
+Sleep, 9000
+
+MouseClick, L, 1542, 531
+
+Sleep, 600
+
+MouseClick, L, 1793, 1045
+
+Sleep, 7000
+
+MouseClick, L, 1793, 1045
+
+Sleep, 7000
+
+MouseClick, L, 1793, 1045
+
+Sleep, 7000
+
+MouseClick, L, 1793, 1045
+
+Sleep, 7000
+
+Send, {Blind}{Escape}f
+
+Sleep, 600
+
+Send, {Blind}f
+
+Sleep, 687
+
+MouseClick, L, 558, 157
+
+MouseClick, L, 702, 160
+
+Sleep, 140
+
+MouseClick, L, 790, 169
+
+Sleep, 132
+
+MouseClick, L, 891, 172
+
+Sleep, 336
+
+MouseClick, L, 1626, 56
+
+Sleep, 539
+
+MouseClick, L, 1791, 1038
+
+Sleep, 797
+
+MouseClick, L, 1584, 1041
+
+Sleep, 1000
+
+}

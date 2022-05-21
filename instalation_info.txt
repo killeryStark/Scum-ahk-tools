@@ -1,0 +1,4 @@
+Scum Tools
+
+The program is in the testing phase.
+Errors and inaccuracies in its operation are possible.

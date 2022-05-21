@@ -11,7 +11,8 @@
  - [x] Add maps
  - [x] Add lockpicking script
  - [x] Add Scum hot key
+ - [x] Add server online
+ - [ ] Add music script
  - [ ] Add macros recorder
  - [ ] Add admin settings
  - [ ] Add settings
- - [x] Add server online
